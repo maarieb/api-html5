@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container>div {
+    width : 50%;
+    height : 100px;
+    text-align: center;
+}
+
+#drag {
+    background-color: tomato;
+}
+
+#drop {
+    background-color: dodgerblue;
+}
